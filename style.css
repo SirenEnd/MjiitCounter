@@ -1,0 +1,177 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: url('images/sd.jpg'); /* Same as your existing header color */
+  background-size: cover; /* Ensures image covers the full screen */
+  font-family: Arial, sans-serif;
+}
+.header {
+  background: url('images/gradient-1\ -\ Copy.png'); /* Same as your existing header color */
+  padding: 50px;
+  color: rgba(103, 21, 21, 0.718); /* Text color for the header */
+  position: relative; /* Set position relative for the header */
+  
+}
+
+.header-content {
+  display: flex; /* Use flexbox to align items horizontally */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  position: relative; /* Set position relative for the header content */
+}
+
+.header-content img {
+  margin-right: 20px; /* Space between the logo and the welcome message */
+}
+
+.header-content h1 {
+  margin: 0; /* Remove default margin */
+  font-size: 24px; /* Adjust font size as needed */
+}
+/* Dropdown Menu Styles */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%; /* Position below the icon */
+  right: 0px;
+  background-color: #ffffff; /* White background */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  border-radius: 8px; /* Rounded corners */
+  overflow: hidden; /* Prevents content from overflowing */
+  z-index: 10; /* Ensures it appears on top */
+  width: 180px; /* Adjust width to fit menu items */
+  
+}
+
+/* Dropdown Menu Links */
+.dropdown-menu a {
+  display:flex;
+  padding: 12px 16px; /* Space inside each menu item */
+  color: #333; /* Dark text color for contrast */
+  text-decoration: none; /* Remove underline */
+  font-size: 16px; /* Adjust font size */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover Effect for Menu Links */
+.dropdown-menu a:hover {
+  background-color: #f4f4f4; /* Light gray hover background */
+  color: #28a745; /* Highlight with green color */
+}
+
+/* Dropdown Icon Container */
+.switch-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative; /* Required for absolute positioning of dropdown */
+  margin-left: 20px;
+}
+
+.switch-icon:hover {
+  color: #28a745; /* Change icon color on hover */
+}
+
+/* Dropdown Container */
+.dropdown {
+  position: relative; /* Required for positioning dropdown menu */
+}
+.hidden {
+  display: none;
+}
+.login-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.867); /* White semi-transparent background */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  position: relative;
+  top: 43%;
+  transform: translateY(-50%);
+  /* Add background image */
+  background-image: url('images/s1.jpg'); /* Replace with your image path */
+  background-size: cover; /* Ensures the image covers the container */
+  background-repeat: no-repeat; /* Prevents image tiling */
+  background-position: center; /* Centers the image */
+}
+
+
+.logo img {
+  max-width: 100%;
+}
+
+.login-form {
+  margin: 0; /* Remove default margin */
+}
+
+.login-form h2 {
+  margin-bottom: 26px;
+  color: #88b6a3;
+  margin-right: 47%;/* Align heading to the left */
+  font-size: 30px;
+}
+
+.login-form input {
+  width: 45%; /* Make inputs full width */
+  padding: 19px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-right: 44%;
+}
+
+
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Center items vertically */
+  font-size: 0.9em;
+}
+
+.options label {
+  display: inline-block;
+  white-space: nowrap; /* Prevents text from wrapping */
+  vertical-align: middle; /* Align checkbox and text vertically*/
+  margin-left: 42px;
+}
+
+.options input[type="checkbox"] {
+  display: inline-block;
+  vertical-align: middle; /* Ensures alignment with the text */
+  margin-right: -2px; /* Adjust space between checkbox and text */
+}
+
+.forgot-password {
+  color: #090909;
+  text-decoration: none;
+  margin-right: 49%;
+}
+
+
+.login-button {
+  background-color: #008577;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 20%; /* Make button full width */
+  margin-right: 50%;
+}
+
+.login-button:hover {
+  background-color: #218838;
+}
+
+.hidden {
+  display: none;
+}
+
+

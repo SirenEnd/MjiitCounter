@@ -1,0 +1,167 @@
+:root {
+  --primary-color: #008080; /* Deep Blue */
+  --secondary-color: #f4f4f9; /* Light Gray */
+  --accent-color: #ff9900; /* Orange */
+  --text-color: #333;
+  --background-color: #f9f9f9;
+  --btn-hover-color: #009483; /* Darker Blue */
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e4f1ed20;
+  margin: 0;
+  padding: 0;
+}
+        
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #b8f5e5a7;
+  border-bottom: 2px solid #ccc;
+  background: url('images/gradient-1\ -\ Copy.png'); /* Same as your existing header color */
+}
+
+
+.logo {
+    text-align: left;
+    margin-bottom: 30px;
+    width: 650px;
+}
+
+.admin-info {
+  text-align: right;
+}
+
+.admin-info a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.user-logo {
+  text-align: right;
+  margin-bottom: -11px;
+  width: 140px;
+}
+
+.admin-main-page h2 {
+  color: #009688;
+  font-size: 24px;
+  margin: 20px;
+}
+p {
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: left;
+  color: #008080;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+.search-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.search-container input {
+  width: 35%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.staff-list-section {
+  margin: 20px;
+}
+
+.staff-list-section input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.add-btn, .update-btn, .delete-btn {
+  padding: 10px 20px; /* Ensure same padding */
+  font-size: 16px; /* Ensure same font size */
+  border: none; /* No border */
+  cursor: pointer; /* Pointer cursor */
+  border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+}
+
+.add-btn { background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;}
+.update-btn { background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; }
+.delete-btn { background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;}
+
+#staffList {
+  list-style: none;
+  padding: 0;
+}
+
+#staffList li {
+  background-color: #e0f7fa;
+  color: white;
+  margin: 50px;
+  padding: 29px;
+  border-radius: 50px;
+  width: 50%;
+  margin-left: 23%;
+  
+}
+
+.add-staff-form {
+  padding: 20px;
+}
+
+.add-staff-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-staff-form input[type="text"],
+.add-staff-form input[type="password"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+/* .add-staff-form button {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin: 10px 5px;
+}
+
+.add-staff-form button[type="button"]:first-child {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.add-staff-form button[type="button"]:last-child {
+  background-color: #F44336;
+  color: white;
+}
+ */
